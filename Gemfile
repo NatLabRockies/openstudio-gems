@@ -52,7 +52,7 @@ if LOCAL_DEV
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 
@@ -92,7 +92,7 @@ elsif !FINAL_PACKAGE
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 else
@@ -126,7 +126,7 @@ else
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 
