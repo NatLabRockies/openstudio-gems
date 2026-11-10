@@ -86,7 +86,7 @@ elsif !FINAL_PACKAGE
     if !MINIMAL_GEMS
       # gem 'sqlite3', :github => 'jmarrec/sqlite3-ruby', :ref => 'MSVC_support'
       # gem 'sqlite3', :github => 'sparklemotion/sqlite3-ruby', :ref => "v1.7.2"
-      gem 'sqlite3', '= 1.7.2'
+      gem 'sqlite3', '= 2.9.6'
 
       # You need ragel available (version 6.x, eg `ragel_installer/6.10@bincrafters/stable` from conan)
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
@@ -120,7 +120,7 @@ else
     if !MINIMAL_GEMS
       # gem 'sqlite3'
       # gem 'sqlite3'
-      gem 'sqlite3', '= 1.7.2'
+      gem 'sqlite3', '= 2.9.6'
 
       # You need ragel available (version 6.x, eg `ragel_installer/6.10@bincrafters/stable` from conan)
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
