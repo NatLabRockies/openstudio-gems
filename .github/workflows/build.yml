@@ -43,8 +43,8 @@ jobs:
         - build_name: apple-clang-14-armv8
           compiler: apple-clang
           version: 14
-          os: macos-14
-          xcode-version: "15"
+          os: macos-15
+          xcode-version: "16"
           allow_failure: false
         - build_name: msvc-2022
           compiler: msvc
