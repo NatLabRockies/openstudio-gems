@@ -52,7 +52,7 @@ if LOCAL_DEV
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 
@@ -61,7 +61,7 @@ elsif !FINAL_PACKAGE
   gem 'oslg', '= 0.4.0'
 
   if !MINIMAL_GEMS
-    gem 'tbd', '~> 3.5.0'
+    gem 'tbd', '= 3.5.0'
     gem 'osut', '= 0.8.0'
 
     # gem 'openstudio-standards', '= 0.8.2.rc1', :github => 'NREL/openstudio-standards', :ref => 'v0.8.2.rc1'
@@ -86,13 +86,13 @@ elsif !FINAL_PACKAGE
     if !MINIMAL_GEMS
       # gem 'sqlite3', :github => 'jmarrec/sqlite3-ruby', :ref => 'MSVC_support'
       # gem 'sqlite3', :github => 'sparklemotion/sqlite3-ruby', :ref => "v1.7.2"
-      gem 'sqlite3', '= 1.7.2'
+      gem 'sqlite3', '= 2.9.6'
 
       # You need ragel available (version 6.x, eg `ragel_installer/6.10@bincrafters/stable` from conan)
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 else
@@ -120,13 +120,13 @@ else
     if !MINIMAL_GEMS
       # gem 'sqlite3'
       # gem 'sqlite3'
-      gem 'sqlite3', '= 1.7.2'
+      gem 'sqlite3', '= 2.9.6'
 
       # You need ragel available (version 6.x, eg `ragel_installer/6.10@bincrafters/stable` from conan)
       # 'oga' was chosen as the parser because 'nokogiri' is not supported on windows
       gem 'oga', '3.2'
       # gem 'cbor', '0.5.9.6' # Cbor will require a ton of patching, so disabling it in favor of msgpack (cbor is a fork of msgpack anyways)
-      gem 'msgpack', '1.7.2'
+      gem 'msgpack', '1.8.7'
     end
   end
 
